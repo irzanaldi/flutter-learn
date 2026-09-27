@@ -1,0 +1,42 @@
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+*.jks
+*.keystore
+**/key.properties
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# === OS ===
+.DS_Store
+
+# === Logs ===
+*.log
+
+# === Flutter / Dart ===
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins*
+*.iml
+.idea/
+.vscode/
+
+# === Android ===
+android/.gradle/
+android/local.properties
+android/captures/
+**/android/**/gradle-wrapper.jar
+
+# === iOS ===
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_export_environment.sh
